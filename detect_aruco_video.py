@@ -5,7 +5,7 @@ python detect_aruco_video.py --type DICT_5X5_100 --camera False --video test_vid
 '''
 
 import numpy as np
-from utils import ARUCO_DICT, aruco_display
+from stare.utils import ARUCO_DICT, aruco_display
 import argparse
 import time
 import cv2

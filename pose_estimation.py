@@ -7,7 +7,7 @@ python pose_estimation.py --K_Matrix calibration_matrix.npy --D_Coeff distortion
 import numpy as np
 import cv2
 import sys
-from utils import ARUCO_DICT
+from stare.utils import ARUCO_DICT
 import argparse
 import time
 
